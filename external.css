@@ -1,0 +1,125 @@
+@media (min-width:320px) {
+    
+}
+@media (max-width:1680) {
+
+}
+html {
+    max-width: 95vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+.circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: indianred;
+    position: fixed;
+    left: 35px;
+    top: 85px;
+}
+.circle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: indianred;
+    position: fixed;
+    left: 35px;
+    top: 160px;
+}
+.circle3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: indianred;
+    position: fixed;
+    left: 260px;
+    top: 95px;
+}
+.circle4 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(213, 224, 64);
+    position: fixed;
+    left: 140px;
+    top: 105px;
+}
+.circle5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(213, 224, 64);
+    position: fixed;
+    left: 90px;
+    top: 205px;
+}
+.circle6 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: indianred;;
+    position: fixed;
+    left: 200px;
+    top: 150px;
+}
+.triangle1 {
+    position:fixed;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(4, 98, 21);
+    right: 102px;
+    top: 132px;
+}
+.triangle2 {
+    position: fixed;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid rgba(228, 231, 39, 0.818);
+    right: 20px;
+    top: 174px;
+}
+.threeboxes {
+    display: flex;
+}
+.painting {
+    display: flex;
+    flex-direction: column;
+}
+.painting > div {
+    background-color: rgb(47, 144, 112);
+    margin-right: 10vw;
+}
+.box1 {
+    display: flex;
+    height: 11vh;
+    width: 32vw;
+    background-color: rgb(47, 144, 112);
+    margin-left: 1%;
+}
+
+.box2 {
+    background-color: rgb(47, 144, 112);
+    align-items: center;
+    height: 20vh;
+    width: 95vw;
+    margin-top: 1.5%;
+}
+.box3 {
+    background-color: rgb(174, 255, 158);
+    margin-top: 1%;
+    width: 95vw;
+    height: 1vh;
+}
+.form {
+    margin-top: 5vh;
+    margin-left: 1vh;
+}
